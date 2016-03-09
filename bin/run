@@ -35,7 +35,7 @@ push "dhcp-option DNS 8.8.4.4"
 
 proto tcp-server
 port 443
-dev tun443
+dev tun 443
 status openvpn-status-443.log
 EOF
 
@@ -55,7 +55,7 @@ push "dhcp-option DNS 8.8.4.4"
 
 proto tcp
 port 1194
-dev tun1194
+dev tun 1194
 status openvpn-status-1194.log
 EOF
 
